@@ -6,6 +6,7 @@ You can use this script to bulk-license Office365 users.
 
 1. Create a .CSV file with the header 'userPrincipalName'
 2. In the script change the value of the 'Set-MsolUserLicense' command to suite your environment - I plan on automating this bit in the next iteration.
+
 To check your account license types simply use the command Get-MsolAccountSku.
 
 ## History
