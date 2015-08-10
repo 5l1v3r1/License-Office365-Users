@@ -12,4 +12,5 @@ To check your account license types simply use the command Get-MsolAccountSku.
 ## History
 
 0.1 03/08/2015: Initial version
+
 0.2 04/08/2015: Added error checking. If user is already licensed, they are written to a log file where the admin can decide what to do. Added progress bar.
